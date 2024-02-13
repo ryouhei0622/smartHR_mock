@@ -7,9 +7,16 @@ module.exports = {
     extend: {
       colors: {
         'base-blue': '#00C4CC',
+        'base-gray': '#F8F7F6',
       },
       height: {
         'header-height': '50px',
+      },
+      width: {
+        'table-width': '200px',
+      },
+      margin: {
+        'header-margin': '22px',
       },
     },
   },
