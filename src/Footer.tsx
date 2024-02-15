@@ -13,6 +13,6 @@ export const Footer = () => {
         <div dir="rtl">
             .ⒸsmartHR, Inc
         </div>
-      </header>
+        </header>
     )
 }
