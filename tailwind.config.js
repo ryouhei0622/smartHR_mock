@@ -10,6 +10,7 @@ module.exports = {
         'base-gray': '#F8F7F6',
         'table-header': '#F2F1F0',
         'table-row': '#FFFFFF',
+        'company-gray': '#ABA7A1',
       },
       height: {
         'header-height': '50px',
