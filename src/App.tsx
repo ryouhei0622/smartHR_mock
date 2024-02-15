@@ -1,6 +1,6 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { Table } from './table';
+import {Company} from './company';
 
 function App() {
   return (
@@ -13,6 +13,8 @@ function App() {
         {/* 各子要素のスタイルを保持 */}
         <div className="w-table-width h-4/5 mx-header-margin bg-base-blue">
           <h1>今日も一日がんばるぞい！</h1>
+          <Table />
+          <Company />
         </div>
         <div className="w-process-width h-full bg-base-blue">
           <h1>今日も一日がんばるぞい！</h1>

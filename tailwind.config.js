@@ -8,6 +8,8 @@ module.exports = {
       colors: {
         'base-blue': '#00C4CC',
         'base-gray': '#F8F7F6',
+        'table-header': '#F2F1F0',
+        'table-row': '#FFFFFF',
       },
       height: {
         'header-height': '50px',
