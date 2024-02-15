@@ -14,10 +14,11 @@ module.exports = {
       },
       height: {
         'header-height': '50px',
+        'process-height': '110px'
       },
       width: {
         'table-width': '250px',
-        'process-width': '600px',
+        'process-width': '850px',
       },
       margin: {
         'header-margin': '22px',
