@@ -13,7 +13,8 @@ module.exports = {
         'header-height': '50px',
       },
       width: {
-        'table-width': '200px',
+        'table-width': '250px',
+        'process-width': '600px',
       },
       margin: {
         'header-margin': '22px',
