@@ -5,6 +5,7 @@ import { Header } from './Header';
 import { Process } from './Process';
 import {Status} from './Status';
 import { WithholdingTax } from './WithholdingTax';
+import{Payslip} from './Payslip';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <div className="w-process-width h-full bg-white"> 
           <Process/>
           <Status/>
+          <Payslip/>
           <WithholdingTax/>
         </div>
       </div>
