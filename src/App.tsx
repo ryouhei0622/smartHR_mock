@@ -18,10 +18,12 @@ function App() {
             <Company/>
         </div>
         <div className="w-process-width h-full bg-white shadow-lg"> 
-          <Process/>
-          <Status/>
-          <Payslip/>
-          <WithholdingTax/>
+          <div className="w-[calc(100%-2*header-margin)] h-full bg-white mx-header-margin">
+            <Process/>
+            <Status/>
+            <Payslip/>
+            <WithholdingTax/>
+          </div>
         </div>
       </div>
       <div className="flex justify-center items-center h-20 bg-base-gray"/>
