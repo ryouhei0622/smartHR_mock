@@ -11,7 +11,7 @@ export const Payslip = () => {
     return(
         <>
         <div className="text-xl flex items-center">
-            <TbCoinYenFilled className="inline-block mx-header-margin h-8 w-8 align-middle" />
+            <TbCoinYenFilled className="inline-block my-1 mx-header-margin h-8 w-8 align-middle" />
             給与明細
         </div>
         <PayslipLine text="2024(令和06)年01月1日支給分 給与明細" link="https://github.com/ryouhei0622" />
