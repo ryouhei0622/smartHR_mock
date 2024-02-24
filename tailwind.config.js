@@ -11,6 +11,7 @@ module.exports = {
         'table-header': '#F2F1F0',
         'table-row': '#FFFFFF',
         'company-gray': '#ABA7A1',
+        'gray-blue': '#48aeb3',
       },
       height: {
         'header-height': '50px',
