@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+const plugin = require('tailwindcss/plugin');
+
 module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
@@ -15,7 +17,7 @@ module.exports = {
       },
       height: {
         'header-height': '50px',
-        'process-height': '110px'
+        'process-height': '110px',
       },
       width: {
         'table-width': '250px',
@@ -24,6 +26,23 @@ module.exports = {
       margin: {
         'header-margin': '22px',
       },
+      boxShadow: {
+        'btn-shadow': 'rgba(0, 0, 0, 0.1) 0 -2px 2px inset',
+      },
     },
   },
+  plugins: [
+    plugin(function({ addComponents, theme }) {
+      const newComponents = {
+        '.base-focus': {
+          '&:focus': {
+            outline: 'none',
+            boxShadow: `0 0 0 2px ${theme('colors.gray.400')}80`, 
+            opacity: '0.5', 
+          },
+        },
+      };
+      addComponents(newComponents);
+    }),
+  ],
 }
