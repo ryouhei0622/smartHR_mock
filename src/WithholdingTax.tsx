@@ -2,7 +2,7 @@ export const WithholdingTax = () => {
     return(
         <>
         <div className="text-3xl flex items-center border-b">
-            <img src="./bat.svg" alt="Bat" className="inline-block ml-header-margin mx-header-margin my-header-margin  h-8 align-middle" />
+            <img src="./bat.svg" alt="Bat" className="inline-block ml-header-margin mx-header-margin mt-header-margin  h-8 align-middle" />
             源泉徴収票
         </div>
         <div className="mt-4 mx-header-margin">
