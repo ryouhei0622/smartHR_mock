@@ -7,7 +7,7 @@ export const Status = () => {
         <>
         <div className="text-xl flex items-center justify-between">
             <div>
-                <FaRegFileAlt className="inline-block mx-header-margin my-header-margin h-8 align-middle" />
+                <FaRegFileAlt className="inline-block mr-header-margin my-header-margin h-8 w-8 align-middle" />
                 申請の状況
             </div>
         <button className="flex items-center mr-header-margin text-sm border border-black py-1 px-3 rounded-md hover:bg-gray-200 base-ease focus:base-focus cursor-pointer shadow-btn-shadow">

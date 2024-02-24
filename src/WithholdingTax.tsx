@@ -4,7 +4,7 @@ export const WithholdingTax = () => {
     return(
         <>
         <div className="text-xl flex items-center border-b">
-            <BsFileEarmarkSpreadsheet className="inline-block my-1 ml-header-margin mx-header-margin h-8 w-8 align-middle" />
+            <BsFileEarmarkSpreadsheet className="inline-block my-1 mr-header-margin h-8 w-8 align-middle" />
             源泉徴収票
         </div>
         <div className="mt-4 mx-header-margin">
