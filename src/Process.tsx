@@ -16,10 +16,10 @@ const ProcessButton: React.FC<ProcessButtonProps> = ({ icon, title, description,
         >
             <img src={icon} alt="Icon" className="h-10 w-10 mr-4"/>
             <div className="flex flex-col justify-center h-full">
-                <div className="text-2xl text-white font-bold text-left">
+                <div className="text-xl text-white font-bold text-left">
                     {title}
                 </div>
-                <div className="text-sm text-white text-left">
+                <div className="text-xs text-white text-left">
                     {description}
                 </div>
             </div>
