@@ -24,7 +24,7 @@ module.exports = {
         'process-width': '850px',
       },
       margin: {
-        'header-margin': '22px',
+        'header-margin': '20px',
       },
       boxShadow: {
         'btn-shadow': 'rgba(0, 0, 0, 0.1) 0 -2px 2px inset',

@@ -1,51 +1,41 @@
+import React from 'react';
+import { AiOutlineFileDone } from "react-icons/ai";
+
+type TableRowsProps = {
+    title: string;
+    IconComponent: React.ReactNode; // Use ReactNode to accept JSX elements
+};
+
+const TableRows = ({ title, IconComponent }: TableRowsProps) => {
+    return (
+        <tr> 
+            <td className="h-11 text-black whitespace-nowrap hover:bg-table-header flex items-center border-b border-gray-300 rounded-sm base-ease focus:base-focus cursor-pointer">
+                {IconComponent}
+                <span className="ml-2 text-xs">{title}</span>
+            </td>
+        </tr>
+    );
+};
+
+
 export const Table = () => {
     return(
 <div className="relative overflow-x-auto">
-    <table className="w-full text-sm text-left text-dark dark:text-gray-400 bg-table-header">
-        <thead className="text-m text-black uppercase bg-table-header dark:bg-table-header">
+    <table className="w-full text-lg text-left text-dark dark:text-gray-400 bg-white border border-gray-300">
+        <thead className="text-sm text-black uppercase bg-table-header dark:bg-table-header border border-gray-300">
             <tr>
-                <th scope="col" className="px-6 py-3">
+                <th scope="col" className="px-2 py-3">
                     機能
                 </th>
             </tr>
         </thead>
         <tbody>
-            <tr className="bg-white border-b">
-                <th scope="row" className="px-6 py-4 font-medium text-black whitespace-nowrap hover:bg-table-header">
-                <img src="./bat.svg" alt="Bat" className="inline-block ml-2 h-5 align-middle" /> {""}
-                    申請    
-                </th>
-            </tr>
-            <tr className="bg-white border-b">
-                <th scope="row" className="px-6 py-4 font-medium text-black whitespace-nowrap hover:bg-table-header">
-                <img src="./bat.svg" alt="Bat" className="inline-block ml-2 h-5 align-middle" /> {""}
-                    カスタム社員名簿    
-                </th>
-            </tr>
-            <tr className="bg-white border-b">
-                <th scope="row" className="px-6 py-4 font-medium text-black whitespace-nowrap hover:bg-table-header">
-                <img src="./bat.svg" alt="Bat" className="inline-block ml-2 h-5 align-middle" /> {""}
-                    組織図
-                </th>
-            </tr>
-            <tr className="bg-white border-b">
-                <th scope="row" className="px-6 py-4 font-medium text-black whitespace-nowrap hover:bg-table-header">
-                <img src="./bat.svg" alt="Bat" className="inline-block ml-2 h-5 align-middle" /> {""}
-                    年末調整
-                </th>
-            </tr>
-            <tr className="bg-white border-b">
-                <th scope="row" className="px-6 py-4 font-medium text-black whitespace-nowrap hover:bg-table-header">
-                <img src="./bat.svg" alt="Bat" className="inline-block ml-2 h-5 align-middle" /> {""}
-                    文書配布
-                </th>
-            </tr>
-            <tr className="bg-white border-b">
-                <th scope="row" className="px-6 py-4 font-medium text-black whitespace-nowrap hover:bg-table-header">
-                <img src="./bat.svg" alt="Bat" className="inline-block ml-2 h-5 align-middle" /> {""}
-                    スキル管理
-                </th>
-            </tr>
+            <TableRows title="申請" IconComponent={<AiOutlineFileDone className="inline-block ml-2 h-5 align-middle" />} />
+            <TableRows title="カスタム社員名簿" IconComponent={<AiOutlineFileDone className="inline-block ml-2 h-5 align-middle" />} />
+            <TableRows title="組織図" IconComponent={<AiOutlineFileDone className="inline-block ml-2 h-5 align-middle" />} />
+            <TableRows title="年末調整" IconComponent={<AiOutlineFileDone className="inline-block ml-2 h-5 align-middle" />} />
+            <TableRows title="文書配布" IconComponent={<AiOutlineFileDone className="inline-block ml-2 h-5 align-middle" />} />
+            <TableRows title="スキル管理" IconComponent={<AiOutlineFileDone className="inline-block ml-2 h-5 align-middle" />} />
         </tbody>
     </table>
 </div>
