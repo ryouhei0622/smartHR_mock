@@ -20,11 +20,13 @@ module.exports = {
         'process-height': '110px',
       },
       width: {
-        'table-width': '250px',
-        'process-width': '850px',
+        'base-width': '913',
+        'table-width': '285px',
+        'process-width': '855px',
+
       },
       margin: {
-        'header-margin': '20px',
+        'header-margin': '22px',
       },
       boxShadow: {
         'btn-shadow': 'rgba(0, 0, 0, 0.1) 0 -2px 2px inset',

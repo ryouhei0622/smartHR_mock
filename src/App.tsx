@@ -12,12 +12,12 @@ function App() {
   return (
     <div className="Home bg-base-gray">
       <Header/>
-      <div className="flex w-4/5 h-full mx-auto space-x-header-margin  justify-center overflow-auto">
+      <div className="flex w-base-width h-full mx-auto space-x-header-margin  justify-center overflow-auto">
         <div className="w-table-width h-4/5 mx-header-margin space-y-header-margin bg-base-gray flex flex-col">
             <Table/>
             <Company/>
         </div>
-        <div className="w-process-width h-full bg-white shadow-lg"> 
+        <div className="h-full w-process-width bg-white shadow-lg"> 
           <div className="w-[calc(100%-2*header-margin)] h-full bg-white mx-header-margin">
             <Process/>
             <Status/>
