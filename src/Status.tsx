@@ -5,7 +5,7 @@ import { FaRegFileAlt } from "react-icons/fa";
 export const Status = () => {
     return(
         <>
-        <div className="text-xl flex items-center justify-between">
+        <div className="text-xl flex items-center justify-between mt-header-margin">
             <div>
                 <FaRegFileAlt className="inline-block mr-header-margin my-header-margin h-8 w-8 align-middle" />
                 申請の状況

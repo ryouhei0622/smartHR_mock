@@ -17,7 +17,7 @@ function App() {
             <Table/>
             <Company/>
         </div>
-        <div className="h-full w-process-width bg-white shadow-lg"> 
+        <div className="h-full w-process-width bg-white border border-gray-300"> 
           <div className="w-[calc(100%-2*header-margin)] h-full bg-white mx-header-margin">
             <Process/>
             <Status/>

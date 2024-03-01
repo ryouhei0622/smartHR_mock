@@ -44,37 +44,37 @@ export const Process = () => {
         </div>
         <div className="grid grid-cols-2 gap-6">
             <ProcessButton 
-                IconComponent={<MdFamilyRestroom className="h-10 w-10 mx-4 text-white" />}
+                IconComponent={<MdFamilyRestroom className="h-10 w-10 ml-4 mr-6 text-white" />}
                 title="扶養追加の手続き"
                 description="結婚、出産、配偶者が退職したとき等"
                 onClick={() => console.log("扶養追加の手続き")}
             />
             <ProcessButton 
-                IconComponent={<ImExit className="h-10 w-10 mx-4 text-white" />}
+                IconComponent={<ImExit className="h-10 w-10 ml-4 mr-6 text-white" />}
                 title="扶養削除の手続き"
                 description="子供や配偶者が就職したとき等"
                 onClick={() => console.log("住民税の手続き")}
             />
             <ProcessButton 
-                IconComponent={<FaTruckMoving className="h-10 w-10 mx-4 text-white" />}
+                IconComponent={<FaTruckMoving className="h-10 w-10 ml-4 mr-6 text-white" />}
                 title="住所変更の手続き"
                 description="引っ越しした時の手続き"
                 onClick={() => console.log("健康保険の手続き")}
             />
             <ProcessButton 
-                IconComponent={<IoMdPricetag className="h-10 w-10 mx-4 text-white" />}
+                IconComponent={<IoMdPricetag className="h-10 w-10 ml-4 mr-6 text-white" />}
                 title="氏名変更の手続き"
                 description="氏名が変わったときの手続き"
                 onClick={() => console.log("社会保険の手続き")}
             />
             <ProcessButton 
-                IconComponent={<FaWpforms className="h-10 w-10 mx-4 text-white" />}
+                IconComponent={<FaWpforms className="h-10 w-10 ml-4 mr-6 text-white" />}
                 title="申請フォーム"
                 description="その他の申請はこちら"
                 onClick={() => console.log("給与明細の取得")}
             />
             <ProcessButton 
-                IconComponent={<FaRegCalendarCheck className="h-10 w-10 mx-4 text-white" />}
+                IconComponent={<FaRegCalendarCheck className="h-10 w-10 ml-4 mr-6 text-white" />}
                 title="年末調整の手続き"
                 description="年末調整の書類を作成します。"
                 onClick={() => console.log("その他の手続き")}

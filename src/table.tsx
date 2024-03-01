@@ -35,12 +35,12 @@ export const Table = () => {
             </tr>
         </thead>
         <tbody>
-            <TableRows title="申請" IconComponent={<AiOutlineFileDone className="inline-block ml-2 h-5 align-middle" />} />
-            <TableRows title="カスタム社員名簿" IconComponent={<BsFillFileEarmarkPersonFill className="inline-block ml-2 h-5 align-middle" />} />
-            <TableRows title="組織図" IconComponent={<RiOrganizationChart className="inline-block ml-2 h-5 align-middle" />} />
-            <TableRows title="年末調整" IconComponent={<FaRegCalendarCheck  className="inline-block ml-2 h-5 align-middle" />} />
-            <TableRows title="文書配布" IconComponent={<IoNewspaperOutline  className="inline-block ml-2 h-5 align-middle" />} />
-            <TableRows title="スキル管理" IconComponent={<FaTrophy  className="inline-block ml-2 h-5 align-middle" />} />
+            <TableRows title="申請" IconComponent={<AiOutlineFileDone className="inline-block ml-4 h-5 align-middle" />} />
+            <TableRows title="カスタム社員名簿" IconComponent={<BsFillFileEarmarkPersonFill className="inline-block ml-4 h-5 align-middle" />} />
+            <TableRows title="組織図" IconComponent={<RiOrganizationChart className="inline-block ml-4 h-5 align-middle" />} />
+            <TableRows title="年末調整" IconComponent={<FaRegCalendarCheck  className="inline-block ml-4 h-5 align-middle" />} />
+            <TableRows title="文書配布" IconComponent={<IoNewspaperOutline  className="inline-block ml-4 h-5 align-middle" />} />
+            <TableRows title="スキル管理" IconComponent={<FaTrophy  className="inline-block ml-4 h-5 align-middle" />} />
         </tbody>
     </table>
 </div>

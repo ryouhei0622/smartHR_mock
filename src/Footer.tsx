@@ -1,6 +1,6 @@
 export const Footer = () => {
     return(
-        <header className="h-header-height bg-base-blue text-white text-sm flex justify-between items-center">
+        <header className="h-header-height bg-base-blue text-white text-md flex justify-between items-center">
         {/* リンクを追加し、hover時にunderlineが表示されるように変更 */}
         <div className="ml-header-margin">
             <a href="/help" className="hover:underline">ヘルプ </a>

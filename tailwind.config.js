@@ -21,8 +21,8 @@ module.exports = {
       },
       width: {
         'base-width': '913',
-        'table-width': '285px',
-        'process-width': '855px',
+        'table-width': '260px',
+        'process-width': '820px',
 
       },
       margin: {

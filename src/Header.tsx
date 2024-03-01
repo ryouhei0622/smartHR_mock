@@ -8,13 +8,17 @@ export const Header = () => {
       <div className="flex items-center"> 
         <LuBadgeDollarSign className="inline-block ml-6 my-2 h-6" />
         <span className="mr-4">SmartHR</span>
-        <span className="text-sm">燈株式会社</span>
+        <span className="text-sm">日本株式会社</span>
       </div>
-        <div className="flex items-center">
-          <TbSquareNumber5 className="mr-6" />
-          <CiFaceSmile className="mr-2" />
-          <span className="mr-6 text-sm">山田 太郎 (A01234) ▼</span>
+      <div className="flex items-center">
+        <TbSquareNumber5 className="mr-6" />
+        <div className="flex items-center group mr-6">
+          <CiFaceSmile className="mr-2 group-hover:brightness-90 group-hover:cursor-pointer" />
+          <span className="text-sm group-hover:brightness-90 group-hover:cursor-pointer">山田 太郎 (A01234) ▼</span>
         </div>
+    </div>
+
+
       </header>
     )
 }
