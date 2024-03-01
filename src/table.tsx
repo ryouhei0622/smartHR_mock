@@ -8,7 +8,7 @@ import { FaTrophy } from "react-icons/fa";
 
 type TableRowsProps = {
     title: string;
-    IconComponent: React.ReactNode; // Use ReactNode to accept JSX elements
+    IconComponent: React.ReactNode; 
 };
 
 const TableRows = ({ title, IconComponent }: TableRowsProps) => {
