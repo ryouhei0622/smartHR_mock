@@ -1,5 +1,10 @@
 import React from 'react';
 import { AiOutlineFileDone } from "react-icons/ai";
+import { BsFillFileEarmarkPersonFill } from "react-icons/bs";
+import { RiOrganizationChart } from "react-icons/ri";
+import { FaRegCalendarCheck } from "react-icons/fa";
+import { IoNewspaperOutline } from "react-icons/io5";
+import { FaTrophy } from "react-icons/fa";
 
 type TableRowsProps = {
     title: string;
@@ -31,11 +36,11 @@ export const Table = () => {
         </thead>
         <tbody>
             <TableRows title="申請" IconComponent={<AiOutlineFileDone className="inline-block ml-2 h-5 align-middle" />} />
-            <TableRows title="カスタム社員名簿" IconComponent={<AiOutlineFileDone className="inline-block ml-2 h-5 align-middle" />} />
-            <TableRows title="組織図" IconComponent={<AiOutlineFileDone className="inline-block ml-2 h-5 align-middle" />} />
-            <TableRows title="年末調整" IconComponent={<AiOutlineFileDone className="inline-block ml-2 h-5 align-middle" />} />
-            <TableRows title="文書配布" IconComponent={<AiOutlineFileDone className="inline-block ml-2 h-5 align-middle" />} />
-            <TableRows title="スキル管理" IconComponent={<AiOutlineFileDone className="inline-block ml-2 h-5 align-middle" />} />
+            <TableRows title="カスタム社員名簿" IconComponent={<BsFillFileEarmarkPersonFill className="inline-block ml-2 h-5 align-middle" />} />
+            <TableRows title="組織図" IconComponent={<RiOrganizationChart className="inline-block ml-2 h-5 align-middle" />} />
+            <TableRows title="年末調整" IconComponent={<FaRegCalendarCheck  className="inline-block ml-2 h-5 align-middle" />} />
+            <TableRows title="文書配布" IconComponent={<IoNewspaperOutline  className="inline-block ml-2 h-5 align-middle" />} />
+            <TableRows title="スキル管理" IconComponent={<FaTrophy  className="inline-block ml-2 h-5 align-middle" />} />
         </tbody>
     </table>
 </div>
